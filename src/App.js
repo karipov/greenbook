@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from './components/Hero';
+import Information from './components/Information'
 
 import Navbar from './components/Navbar';
 
@@ -9,6 +10,7 @@ function App() {
         <div>
             <Navbar/>
             <Hero />
+            <Information/>
             
         </div>
     );
